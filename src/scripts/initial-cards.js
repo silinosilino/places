@@ -1,4 +1,4 @@
-const InitialCards = (function() {
+export default InitialCards = (function() {
 
     const initialCards = [
         {

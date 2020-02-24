@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
     constructor (cardData, openImageCallback, api) {
         this.name = cardData.name;
         this.link = cardData.link;

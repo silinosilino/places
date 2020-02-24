@@ -1,4 +1,4 @@
-class PopupAddPlace extends Popup {
+export default class PopupAddPlace extends Popup {
     constructor(element, cardList, api) {
         super(element);
         this.cardList = cardList;

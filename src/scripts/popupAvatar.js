@@ -1,4 +1,4 @@
-class PopupAvatar extends Popup {
+export default class PopupAvatar extends Popup {
     constructor(element, userInfoData) {
         super(element);
         this.userInfoData = userInfoData;

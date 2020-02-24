@@ -1,4 +1,4 @@
-class PopupEditUserInfo extends Popup {
+export default class PopupEditUserInfo extends Popup {
     constructor(element, userInfoData, api) {
         super(element);
         this.userInfoData = userInfoData;

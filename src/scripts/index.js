@@ -6,7 +6,7 @@ import ImagePopup from './imagePopup.js';
 import InitialCards from './initial-cards.js';
 import Popup from './popup.js';
 import PopupAddPlace from './popupAddPlace.js';
-import popupAvatar from './popupAvatar.js';
+import PopupAvatar from './popupAvatar.js';
 import PopupEditUserInfo from './popupEditUserInfo.js';
 import UserInfo from './userInfo.js';
 

@@ -1,3 +1,15 @@
+import Api from './scripts/api.js';
+import Card from './scripts/card.js';
+import CardList from './scripts/cardList.js';
+import FormValidator from './scripts/formValidator.js';
+import ImagePopup from './scripts/imagePopup.js';
+import InitialCards from './scripts/initial-cards.js';
+import Popup from './scripts/popup.js';
+import PopupAddPlace from './scripts/popupAddPlace.js';
+import PopupAvatar from './scripts/popupAvatar.js';
+import PopupEditUserInfo from './scripts/popupEditUserInfo.js';
+import UserInfo from './scripts/userInfo.js';
+
 (function () {
 
     const api = new Api('http://95.216.175.5/cohort7',

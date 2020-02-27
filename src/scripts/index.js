@@ -1,14 +1,14 @@
-import Api from './api.js';
-import Card from './card.js';
-import CardList from './card.List.js';
-import FormValidator from './formValidator.js';
-import ImagePopup from './imagePopup.js';
-import InitialCards from './initial-cards.js';
-import Popup from './popup.js';
-import PopupAddPlace from './popupAddPlace.js';
-import PopupAvatar from './popupAvatar.js';
-import PopupEditUserInfo from './popupEditUserInfo.js';
-import UserInfo from './userInfo.js';
+// import Api from './api.js';
+// import Card from './card.js';
+// import CardList from './card.List.js';
+// import FormValidator from './formValidator.js';
+// import ImagePopup from './imagePopup.js';
+// import InitialCards from './initial-cards.js';
+// import Popup from './popup.js';
+// import PopupAddPlace from './popupAddPlace.js';
+// import PopupAvatar from './popupAvatar.js';
+// import PopupEditUserInfo from './popupEditUserInfo.js';
+// import UserInfo from './userInfo.js';
 
 
 

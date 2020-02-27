@@ -33,10 +33,10 @@ module.exports = {
           loader: "babel-loader"
         }
       },
-      {
-        test: /\.css$/,
-        use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
-      },
+      // {
+      //   test: /\.css$/,
+      //   use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+      // },
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
@@ -74,6 +74,6 @@ module.exports = {
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
       'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-  })
+    })
   ]
 };

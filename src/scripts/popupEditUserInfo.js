@@ -1,3 +1,4 @@
+import Popup from './popup.js';
 export default class PopupEditUserInfo extends Popup {
     constructor(element, userInfoData, api) {
         super(element);

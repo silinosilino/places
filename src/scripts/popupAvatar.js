@@ -1,3 +1,4 @@
+import Popup from './popup.js';
 export default class PopupAvatar extends Popup {
     constructor(element, userInfoData) {
         super(element);

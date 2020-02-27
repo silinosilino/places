@@ -33,10 +33,14 @@ module.exports = {
           loader: "babel-loader"
         }
       },
-      // {
-      //   test: /\.css$/,
-      //   use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
-      // },
+      {
+        test: /\.css$/,
+        use:  [
+          (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
+          'css-loader', 
+          'postcss-loader'
+        ]
+      },
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
@@ -44,19 +48,11 @@ module.exports = {
             loader: 'file-loader',
           },
         ],
-      },
-      {
-        test: /\.css$/i,
-        use: [
-                        (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                        'css-loader', 
-                        'postcss-loader'
-                ]
       }
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin({ // 
+    new MiniCssExtractPlugin({
       filename: 'style.[contenthash].css',
     }),
     new OptimizeCssAssetsPlugin({

@@ -14,7 +14,7 @@
 
 (function () {
 
-    const api = new Api('http://95.216.175.5/cohort7',
+    const api = new Api('https://95.216.175.5/cohort7',
         {
             authorization: 'ea7c2e0c-a7d3-450e-bfaf-1f58f08cc436',
             'Content-Type': 'application/json'

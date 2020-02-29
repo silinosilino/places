@@ -15,7 +15,7 @@ import './index.css';
 
     // 'http://95.216.175.5/cohort7'
 
-    const serverUrl = NODE.ENV === 'development' ?  'http://praktikum.tk/cohort7' : 'https://praktikum.tk/cohort7';
+    const serverUrl = NODE_ENV === 'development' ?  'http://praktikum.tk/cohort7' : 'https://praktikum.tk/cohort7';
     const api = new Api(serverUrl,
         {
             authorization: 'ea7c2e0c-a7d3-450e-bfaf-1f58f08cc436',

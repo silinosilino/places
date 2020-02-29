@@ -9,18 +9,18 @@ To access the website https://silinosilino.github.io/places
 Clone this repository.
 Install the dependencies.
 
-npm install
+`<npm install>`
 
 Run the project
 
-npm run dev
+`<npm run dev>`
 
 Project will be available at http://localhost:8000/
 
 ## Packaging
 Use webpack to package the project to the dist folder
 
-npm run build
+`<npm run build>`
 
 
 ## versions

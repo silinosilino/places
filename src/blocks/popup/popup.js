@@ -6,7 +6,7 @@ export default class Popup{
         const root = document.querySelector('.root');
         root.appendChild(this.popup);
         this.popupCloser = document.createElement('img');
-        this.popupCloser.src = require("../images/close.svg").default;
+        this.popupCloser.src = require("../../images/close.svg").default;
         this.popupCloser.classList.add('popup__close');
         this.popupContent = document.createElement('div');
         this.popupContent.classList.add('popup__content')

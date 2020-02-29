@@ -2,11 +2,11 @@ import Api from './scripts/api.js';
 import Card from './scripts/card.js';
 import CardList from './scripts/cardList.js';
 import FormValidator from './scripts/formValidator.js';
-import ImagePopup from './scripts/imagePopup.js';
-import Popup from './scripts/popup.js';
-import PopupAddPlace from './scripts/popupAddPlace.js';
-import PopupAvatar from './scripts/popupAvatar.js';
-import PopupEditUserInfo from './scripts/popupEditUserInfo.js';
+import ImagePopup from './blocks/popup/imagePopup.js';
+import Popup from './blocks/popup/popup.js';
+import PopupAddPlace from './blocks/popup/popupAddPlace.js';
+import PopupAvatar from './blocks/popup/popupAvatar.js';
+import PopupEditUserInfo from './blocks/popup/popupEditUserInfo.js';
 import UserInfo from './scripts/userInfo.js';
 import './index.css';
 

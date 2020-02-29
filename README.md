@@ -1,7 +1,8 @@
 # Mesto
 
 The project allows user to create and save a collection of 'places' visited or to be visited(cards with names and pictures). Created with training purpose. 
-This project uses JS, CSS, HTML, GIT, Webpack
+This project uses JS, CSS, HTML, GIT, Webpack.
+
 Project is located at https://github.com/silinosilino/places
 To access the website https://silinosilino.github.io/places
 

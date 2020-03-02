@@ -5,9 +5,9 @@
   "description": "Creates and saves a collection of 'places' (cards with names and pictures)",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && NODE_ENV=production webpack --mode production",
-    "dev": "NODE_ENV=development webpack-dev-server --mode development --open --watch",
-    "deploy": "NODE_ENV=production gh-pages -d dist"
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "author": "Elena Silina",
   "license": "ISC",
